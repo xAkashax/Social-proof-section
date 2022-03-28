@@ -30,8 +30,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend.io](https://your-solution-url.com)
+- Live Site URL: [Live Demo](https://bright-longma-d98eca.netlify.app/)
 
 ## My process
 
