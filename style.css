@@ -99,6 +99,7 @@ padding: 5px;
   color: var(--veryDarkMagenta);
   font-weight: 700;
   margin: 8px auto;
+  align-self: center;
 }
 
 .opinions {
@@ -158,4 +159,124 @@ padding: 5px;
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg"); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 0 top -200px, right 0 bottom -200px;
+    background-size: 75%, 100%;
+    background-attachment: fixed;
+  }
+  
+  main {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px 60px;
+  }
+
+  .wrap {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .description {
+    flex-basis: 45%;
+    text-align: left;
+    padding: 0 100px 0 0;
+    margin: 10px 50px 0;
+  }
+  
+  .description h1 {
+    font-size: 42px;
+    padding: 0px 50px 0 0;
+    margin-bottom: 20px;
+  }
+  
+  .description p {
+    padding: 0 20px 0 0;
+  }
+  
+  .rating {
+    flex-basis: 55%;
+    margin-right: 10px;
+  }
+  
+  .rating .rate {
+    display: flex;
+    height: 60px;
+    width: 70%;
+    margin: 10px auto;
+  }
+
+  .rating .rate:nth-of-type(1) {
+    margin-right: 160px;
+  }
+  .rating .rate:nth-of-type(3)  {
+    margin-left: 160px;
+  }
+
+  .rating .rate p {
+    padding-right: 50px;
+    align-self: center;
+  }
+  
+  .opinions {
+    flex-grow: 1;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 30px;
+    margin-top: 20px;
+  }
+  
+  .opinions .opinion-box {
+    height: auto;
+    width: 31%;
+    margin: 0 auto;
+  }
+
+  .opinions .opinion-box:nth-of-type(2) {
+    margin-top: 25px;
+
+  }
+  .opinions .opinion-box:nth-of-type(3) {
+    margin-top: 50px;
+  }
+  
+  .opinions .opinion-box .person {
+    margin-left: 20px;
+  }
+  
+  .opinions .opinion-box .person .name {
+    line-height: 1.8;
+    margin-left: 10px;
+  }
+  
+  .opinions .opinion-box .person .name li:nth-child(odd) {
+    font-weight: 700;
+  }
+  
+  .opinions .opinion-box .person .name li:nth-child(even) {
+    color: var(--softPink);
+  }
+  
+  .opinions .opinion {
+    line-height: 1.8;
+    padding: 15px 48px 50px 25px;
+  }
+  
 }
