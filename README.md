@@ -30,7 +30,7 @@ Mobile
 
 ### Links
 
-- Solution URL: [Frontend.io](https://your-solution-url.com)
+- Solution URL: [Frontend.io](https://www.frontendmentor.io/solutions/social-proof-section-using-flex-BymdGjJm5)
 - Live Site URL: [Live Demo](https://bright-longma-d98eca.netlify.app/)
 
 ## My process
