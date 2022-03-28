@@ -182,6 +182,7 @@ padding: 5px;
   main {
     display: flex;
     width: 90%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     margin: 150px 60px;
